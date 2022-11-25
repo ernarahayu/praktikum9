@@ -1,12 +1,12 @@
 ## PENJELASAN PERULANGAN WHILE PADA PYTHON
-Perulangan while pada python adalah proses pengulangan suatu blok kode program selama sebuah kondisi terpenuhi. Singkatnya, perulangan while adalah perulangan yang bersifat indefinite alias tidak pasti, atau bahkan tidak terbatasSebuah blok kode akan dilakukan terus-menerus selama suatu kondisi terpenuhi. Jika suatu kondisi ternyata tidak terpenuhi pada iterasi ke 10, maka perulangan akan berhenti. Jika kondisi yang sama pada saat yang berbeda ternyata berhenti pada iterasi ke 100, maka perulangan akan berhenti pada jumlah tersebut.
+*Perulangan while pada python adalah proses pengulangan suatu blok kode program selama sebuah kondisi terpenuhi. Singkatnya, perulangan while adalah perulangan yang bersifat indefinite alias tidak pasti, atau bahkan tidak terbatasSebuah blok kode akan dilakukan terus-menerus selama suatu kondisi terpenuhi. Jika suatu kondisi ternyata tidak terpenuhi pada iterasi ke 10, maka perulangan akan berhenti. Jika kondisi yang sama pada saat yang berbeda ternyata berhenti pada iterasi ke 100, maka perulangan akan berhenti pada jumlah tersebut.
 
 ## Penulisan Sintaks While
 Kita bisa memulai dengan cara berikut:
-
+'''bash
  while <kondisi>:
   # blok kode yang akan diulang-ulang
-
+'''
   ## PERULANGAN TANPA BATAS
   Perulangan while sangat berkaitan dengan variabel boolean, atau logical statement. Karena penentuan kapan suatu blok kode akan diulang-ulang ditinjau dari True or False dari suatu pernyataan logika.
 
@@ -21,7 +21,7 @@ Kita bisa memulai dengan cara berikut:
 1. Pastikan kita mempunya software pycharm atau vscode, jika belum anda bisa download Pycharm atau VSCode
 2. Instalasi salah satu software tersebut hingga selesai, lalu buka
 3. Jika sudah semua masukan kodingan seperti dibawah ini
-
+'''bash 
 print("Masukan Data Mahasiswa")
 data =[]
 while True :
@@ -47,6 +47,7 @@ for x in data:
    print("|  {6:2}  |  {0:10}  |  {1:9}  |  {2:7}  |  {3:5}  | {4:6}  |  {5:11.2f}  |"\
          .format (x[0][:9] , x[1][:9],x[2],x[3],x[4],x[5], i))
 print("=====================================================================================")
+'''
 
 ![gambar1](Screenshot/gambar1%20(1).png)
 
