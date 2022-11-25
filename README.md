@@ -1,15 +1,15 @@
 ## PENJELASAN PERULANGAN WHILE PADA PYTHON
-*Perulangan while pada python adalah proses pengulangan suatu blok kode program selama sebuah kondisi terpenuhi. Singkatnya, perulangan while adalah perulangan yang bersifat indefinite alias tidak pasti, atau bahkan tidak terbatasSebuah blok kode akan dilakukan terus-menerus selama suatu kondisi terpenuhi. Jika suatu kondisi ternyata tidak terpenuhi pada iterasi ke 10, maka perulangan akan berhenti. Jika kondisi yang sama pada saat yang berbeda ternyata berhenti pada iterasi ke 100, maka perulangan akan berhenti pada jumlah tersebut.
+*Perulangan while pada python adalah proses pengulangan suatu blok kode program selama sebuah kondisi terpenuhi. Singkatnya, perulangan while adalah perulangan yang bersifat indefinite alias tidak pasti, atau bahkan tidak terbatasSebuah blok kode akan dilakukan terus-menerus selama suatu kondisi terpenuhi. Jika suatu kondisi ternyata tidak terpenuhi pada iterasi ke 10, maka perulangan akan berhenti. Jika kondisi yang sama pada saat yang berbeda ternyata berhenti pada iterasi ke 100, maka perulangan akan berhenti pada jumlah tersebut.*
 
 ## Penulisan Sintaks While
 Kita bisa memulai dengan cara berikut:
 
-'''bash
+```bash
  while <kondisi>:
   # blok kode yang akan diulang-ulang
-'''
+```
   ## PERULANGAN TANPA BATAS
-  Perulangan while sangat berkaitan dengan variabel boolean, atau logical statement. Karena penentuan kapan suatu blok kode akan diulang-ulang ditinjau dari True or False dari suatu pernyataan logika.
+  Perulangan while **sangat berkaitan** dengan variabel boolean, atau *logical statement*. Karena penentuan **kapan suatu blok kode akan diulang-ulang** ditinjau dari True or False dari suatu pernyataan logika.
 
   Sehingga jika suatu kondisi itu selalu benar, maka perulangannya pun akan selalu di eksekusi.
 
@@ -63,12 +63,12 @@ print("=========================================================================
 
 2. lalu menggunakan perulangan while While True : Jika benar maka akan menjalankan kodingan selanjutnya yaitu menginput data-data
 
-3. Untuk nama dan nim kita menggunakan fungsi input biasa
+3. Untuk ```bash nama ``` dan ```bash nim ``` kita menggunakan fungsi input biasa
 
-4. Untuk tugas,uts dan uas kita menggunakan fungsi int untuk menjadikannya integer
+4. Untuk ```bash tugas,uts dan uas ``` kita menggunakan fungsi int untuk menjadikannya integer
 
-5. Dibagian nilaiakhir kita menggunakan fungsi float karena dapat digunakan sebagai argumen dan dapat juga melakukan operasi hitung secara langsung di dalam fungsi dengan bilangan bertipe integer atau sesama float.
+5. Dibagian nilaiakhir kita menggunakan fungsi ```bash float ``` karena dapat digunakan sebagai argumen dan dapat juga melakukan operasi hitung secara langsung di dalam fungsi dengan bilangan bertipe integer atau sesama float.
 
-6. Membuat kondisi dimana ingin Tambah Data (y/t)? jika y maka kondisi true dan akan mengulang ke awal untuk iput data selanjutnya. Jika t maka kondisi akan break, dan apabila kondisi break maka otomatis mengikuti syntax yang berada di luar perulangan seperti contoh yang ada diatas membuat list dengan rapih menggunakan kondisi string.format
+6. Membuat kondisi dimana ingin ```bash Tambah Data (y/t)? ``` jika ```bash y ``` maka kondisi true dan akan mengulang ke awal untuk iput data selanjutnya. Jika ```bash t ``` maka kondisi akan break, dan apabila kondisi break maka otomatis mengikuti syntax yang berada di luar perulangan seperti contoh yang ada diatas membuat list dengan rapih menggunakan kondisi string.format
 
-7. Penjelasan Kondisional dan Perulangan bisa anda akses disini
+7. Penjelasan Kondisional dan Perulangan bisa anda akses [disini](https://drive.google.com/file/d/103JBAxfEujCQ9pBUfe3mM8cJo6-CEcET/view)
