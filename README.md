@@ -63,12 +63,12 @@ print("=========================================================================
 
 2. lalu menggunakan perulangan while While True : Jika benar maka akan menjalankan kodingan selanjutnya yaitu menginput data-data
 
-3. Untuk ```bash nama ``` dan ```bash nim ``` kita menggunakan fungsi input biasa
+3. Untuk ```nama ``` dan ```nim ``` kita menggunakan fungsi input biasa
 
-4. Untuk ```bash tugas,uts dan uas ``` kita menggunakan fungsi int untuk menjadikannya integer
+4. Untuk ```tugas,uts dan uas ``` kita menggunakan fungsi int untuk menjadikannya integer
 
-5. Dibagian nilaiakhir kita menggunakan fungsi ```bash float ``` karena dapat digunakan sebagai argumen dan dapat juga melakukan operasi hitung secara langsung di dalam fungsi dengan bilangan bertipe integer atau sesama float.
+5. Dibagian nilaiakhir kita menggunakan fungsi ```float ``` karena dapat digunakan sebagai argumen dan dapat juga melakukan operasi hitung secara langsung di dalam fungsi dengan bilangan bertipe integer atau sesama float.
 
-6. Membuat kondisi dimana ingin ```bash Tambah Data (y/t)? ``` jika ```bash y ``` maka kondisi true dan akan mengulang ke awal untuk iput data selanjutnya. Jika ```bash t ``` maka kondisi akan break, dan apabila kondisi break maka otomatis mengikuti syntax yang berada di luar perulangan seperti contoh yang ada diatas membuat list dengan rapih menggunakan kondisi string.format
+6. Membuat kondisi dimana ingin ```Tambah Data (y/t)? ``` jika ```bash y ``` maka kondisi true dan akan mengulang ke awal untuk iput data selanjutnya. Jika ```t ``` maka kondisi akan break, dan apabila kondisi break maka otomatis mengikuti syntax yang berada di luar perulangan seperti contoh yang ada diatas membuat list dengan rapih menggunakan kondisi string.format
 
 7. Penjelasan Kondisional dan Perulangan bisa anda akses [disini](https://drive.google.com/file/d/103JBAxfEujCQ9pBUfe3mM8cJo6-CEcET/view)
