@@ -3,6 +3,7 @@
 
 ## Penulisan Sintaks While
 Kita bisa memulai dengan cara berikut:
+
 '''bash
  while <kondisi>:
   # blok kode yang akan diulang-ulang
@@ -21,7 +22,8 @@ Kita bisa memulai dengan cara berikut:
 1. Pastikan kita mempunya software pycharm atau vscode, jika belum anda bisa download Pycharm atau VSCode
 2. Instalasi salah satu software tersebut hingga selesai, lalu buka
 3. Jika sudah semua masukan kodingan seperti dibawah ini
-'''bash 
+
+```bash 
 print("Masukan Data Mahasiswa")
 data =[]
 while True :
@@ -47,14 +49,14 @@ for x in data:
    print("|  {6:2}  |  {0:10}  |  {1:9}  |  {2:7}  |  {3:5}  | {4:6}  |  {5:11.2f}  |"\
          .format (x[0][:9] , x[1][:9],x[2],x[3],x[4],x[5], i))
 print("=====================================================================================")
-'''
+```
 
-![gambar1](Screenshot/gambar1%20(1).png)
+![gambar1](Screenshot/gambar1%20(2).png)
 
 4. Lalu save dan Run program tersebut, maka akan keluar hasil
 5. Input data list tersebut terserah yang kita mau, maka akan keluar hasil seperti dibawah ini
 
-![gambar2](Screenshot/gambar1%20(2).png)
+![gambar2](Screenshot/gambar1%20(1).png)
 
 # Penjelasan
 1. Membuat list bernama data[]
